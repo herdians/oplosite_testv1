@@ -16,4 +16,10 @@ Route::get('/', function () {
 });
 
 Route::resource('posts', 'PostsController');
+Route::resource('posts', 'PostsController');
+Route::resource('posts', 'PostsController');
 Route::resource('admin/posts', 'Admin\\PostsController');
+Route::resource('admin/posts', 'Admin\\PostsController');
+Route::resource('posts', 'PostsController');
+Route::resource('posts', 'PostsController');
+Route::resource('posts', 'PostsController');
