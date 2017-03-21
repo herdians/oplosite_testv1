@@ -9,8 +9,12 @@
         "appzcoder/crud-generator": "^2.0",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
+
         "laravelcollective/html": "^5.4",
         "maspriyono/php-cmis-client": "0.1.1"
+
+
+
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 
+
 Route::group(['middleware' => ['web']], function () {
     Route::get('upload', function () {
         return view('files.upload');
@@ -23,3 +24,6 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::post('/handleUpload', 'FilesController@handleUpload');
 });
+
+Route::resource('posts', 'PostsController');
+Route::resource('admin/posts', 'Admin\\PostsController');
